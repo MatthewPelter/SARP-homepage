@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #eee;
+}
+body {
+  font-family: "Open Sans" !important;
+  background: #181f26 !important;
+}
+body,
+html {
+  height: 100% !important;
+}
+#enjin-bar,
+#site-body,
+#page-footer {
+  display: none !important;
+}
+#section-header,
+#section-footer {
+  display: none;
+}
+.mat nav {
+  background: #181f26 !important;
+}
+.mat .skateHeader {
+  background: url("https://media.gtanet.com/gta-5/images/content/gta-v-setting-los-santos.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 800px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #3361a9;
+}
+.mat footer.page-footer {
+  margin-top: 0 !important;
+}
+.mat .skateHeader .headerSpan {
+  text-align: center;
+}
+.mat nav ul a {
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: 200ms all ease-in-out;
+  position: relative;
+}
+.mat nav ul li ul {
+  position: absolute;
+  background: #222;
+  right: 0;
+  display: none;
+  border-bottom: 2px solid #3498db;
+  -webkit-box-shadow: -1px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  z-index: 999999999;
+}
+.mat nav ul li ul li {
+  /*display: block;*/
+  text-align: left;
+}
+.mat nav ul li:hover ul {
+  display: block;
+}
+.mat nav ul li ul li a:hover {
+  color: #3498db;
+}
+.mat nav ul a:hover {
+  border-color: #3361a9;
+}
+.mat .btn {
+  background-color: #3361a9 !important;
+}
+.mat .page-footer {
+  background-color: #20242b !important;
+}
+.mat .header {
+  position: relative;
+  text-align: center;
+}
+.mat .header:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #3361a9;
+  width: 100%;
+}
+.white-text {
+  border-bottom: 2px solid #3361a9;
+}
+.mat .tabs {
+  background-color: #1c222d !important;
+}
+.mat .tabs .indicator {
+  background-color: #3361a9 !important;
+}
+.mat .tabs .tab a {
+  color: #3361a9 !important;
+}
+.backing {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.card-action a {
+  color: #3361a9 !important;
+}
+.blueb {
+  color: #3361a9 !important;
+  display: inline-block;
+}
+.section1 {
+  background: #1e272f;
+}
+
+.brand-logo {
+  font-size: 1rem !important;
+  padding-left: 10px !important;
+  text-transform: uppercase;
+}
